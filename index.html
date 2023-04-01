@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="px-2 border-b flex items-center justify-between">
+      <a class="uppercase text-purple-800 font-bold" href="#">dev</a>
+      <nav class="flex items-center">
+        <ul class="text-gray-500 font-semibold inline-flex items-center">
+          <li>
+            <a class="header_line" href="#">Home</a>
+          </li>
+          <li>
+            <a class="header_line" href="#">About</a>
+          </li>
+          <li>
+            <a class="header_line" href="#">Contact</a>
+          </li>
+          <ul class="inline-flex items-center">
+            <li>
+              <button class="header_brn">Login</button>
+            </li>
+            <li>
+              <button class="header_brn">Register</button>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <!-- breadcrumbs -->
+    <main>
+      <div class="flex items-center px-2">
+        <div class="py-4 overflow-y-auto whitespace-nowrap flex items-center">
+          <a class="text-gray-500 hover:text-gray-900" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              />
+            </svg>
+          </a>
+          <span class="mx-2 text-gray-300"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </span>
+          <a class="text-gray-500 hover:text-gray-900" href="#">News</a>
+          <span class="mx-2 text-gray-300"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </span>
+          <a class="text-gray-500 hover:text-gray-900" href="">Tech</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- post cards  -->
+    <section class="p-2">
+      <a class="block mb-10" href="#">
+        <div class="flex">
+          <div>
+            <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+              Lorem ipsum dolor sit.
+            </h3>
+            <p class="text-gray-700">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+              quisquam temporibus, sapiente provident tenetur eaque sint atque
+              debitis dignissimos aspernatur illo dicta, architecto eveniet!
+              Nostrum cum ab laboriosam velit commodi?
+            </p>
+          </div>
+        </div>
+      </a>
+      <a class="block mb-10" href="#">
+        <div class="flex">
+          <div>
+            <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+              Quisque blandit sed lacus in rhoncus.
+            </h3>
+            <p class="text-gray-700">
+              Proin scelerisque quam risus, vitae pretium turpis facilisis a. Ut
+              in ex ipsum. Fusce justo ipsum, pretium faucibus fringilla ac,
+              imperdiet nec tellus. Donec ac semper augue. Nunc ligula justo,
+              sagittis sed ultrices id, sollicitudin id orci.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a class="block mb-10" href="#">
+        <div class="flex">
+          <div>
+            <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+              Sed est tortor, vehicula quis malesuada quis, vehicula quis est.
+            </h3>
+            <p class="text-gray-700">
+              Ut ullamcorper dolor eu risus tincidunt, volutpat lacinia erat
+              eleifend. Ut consectetur feugiat commodo. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Pellentesque varius vitae
+              mauris pulvinar ornare. Suspendisse efficitur, dui vitae ultricies
+              sodales, nibh nibh faucibus diam, nec interdum leo risus et ipsum.
+            </p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- pagination -->
+    <div class="mt-20 mb-10">
+      <ul class="flex justify-center">
+        <li>
+          <a class="pagination_item rounded-l-lg" href="#">Previous</a>
+        </li>
+        <li>
+          <a class="pagination_item" href="#">1</a>
+        </li>
+        <li>
+          <a class="pagination_item" href="#">2</a>
+        </li>
+        <li>
+          <a
+            class="pagination_item text-blue-600 hover:bg-blue-100 hover:to-blue-600"
+            href="#"
+            >3</a
+          >
+        </li>
+        <li>
+          <a class="pagination_item" href="#">4</a>
+        </li>
+        <li>
+          <a class="pagination_item" href="#">5</a>
+        </li>
+        <li>
+          <a class="pagination_item rounded-r-lg" href="#">Next</a>
+        </li>
+      </ul>
+    </div>
+    <!-- divider -->
+    <div class="border border-dotted"></div>
+    <!-- Subscribe -->
+    <div class="my-5">
+      <h5 class="fontbold text-lg uppercase text-gray-700 mb-2">Subscribe</h5>
+      <p class="mb-4 text-gray-600">Subscribe to our newsletter</p>
+      <input
+        placeholder="your email address"
+        type="email"
+        class="text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600"
+      />
+      <button
+        class="px-4 py-2 rounded-b bg-indigo-600 text-white w-full hover:bg-indigo-800"
+      >
+        Subscribe
+      </button>
+    </div>
+    <!-- divider -->
+    <div class="border border-dotted"></div>
+    <!-- footer -->
+    <footer class="border-t mt-10 py-10 px-2">
+      <div>
+        <div class="mb-5">
+          <h6 class="font-semibold text-gray-700 mb-3">Company</h6>
+          <ul>
+            <li>
+              <a class="footer_link" href="#">Team</a>
+            </li>
+            <li>
+              <a class="footer_link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="font-semibold text-gray-700 mb-3">Content</h6>
+          <ul>
+            <li>
+              <a class="footer_link" href="#">Block</a>
+            </li>
+            <li>
+              <a class="footer_link" href="#">Policy</a>
+            </li>
+            <li>
+              <a
+                class="inline-block text-gray-500 py-2 hover:underline decoration-4 decoration-dashed decoration-gray-700 underline-offset-2"
+                href="#"
+                >Docs</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="font-semibold text-gray-700 mt-3 mb-3">Contact Us</h6>
+          <ul class="flex">
+            <li class="mr-2">
+              <a class="footer_link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="mr-2">
+              <a class="footer_link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline-block text-gray-500 py-2 hover:underline decoration-4 decoration-dashed decoration-gray-700 underline-offset-2"
+                href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
